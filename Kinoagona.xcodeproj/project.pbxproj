@@ -9,21 +9,35 @@
 /* Begin PBXBuildFile section */
 		0A8CECB62891DDC400260408 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A8CECB52891DDC400260408 /* AppDelegate.swift */; };
 		0A8CECB82891DDC400260408 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A8CECB72891DDC400260408 /* SceneDelegate.swift */; };
-		0A8CECBA2891DDC400260408 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A8CECB92891DDC400260408 /* ViewController.swift */; };
-		0A8CECBD2891DDC400260408 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A8CECBB2891DDC400260408 /* Main.storyboard */; };
 		0A8CECBF2891DDC600260408 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A8CECBE2891DDC600260408 /* Assets.xcassets */; };
 		0A8CECC22891DDC600260408 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A8CECC02891DDC600260408 /* LaunchScreen.storyboard */; };
+		0A8CECD628941DDF00260408 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A8CECD528941DDE00260408 /* User.swift */; };
+		0AB5FA8D28A42CDC00D66E10 /* RegistrationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AB5FA8C28A42CDC00D66E10 /* RegistrationViewController.swift */; };
+		0AB5FA8F28A4351B00D66E10 /* RouterController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AB5FA8E28A4351B00D66E10 /* RouterController.swift */; };
+		0AB5FA9128A5536E00D66E10 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AB5FA9028A5536E00D66E10 /* CustomTextField.swift */; };
+		0AB5FA9328A7EA2000D66E10 /* AuthorizationRegistrationBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AB5FA9228A7EA2000D66E10 /* AuthorizationRegistrationBaseViewController.swift */; };
+		0AB5FA9728A80ADB00D66E10 /* SplashScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AB5FA9628A80ADB00D66E10 /* SplashScreenViewController.swift */; };
+		0ACB0510289FF37C0026B13B /* AuthorizationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ACB050F289FF37C0026B13B /* AuthorizationViewController.swift */; };
+		E2965F9E90D64065AB8D0D9F /* Pods_Kinoagona.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E3F4DB9E3EFE57B427B6A33 /* Pods_Kinoagona.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		0A8CECB22891DDC400260408 /* Kinoagona.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Kinoagona.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A8CECB52891DDC400260408 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0A8CECB72891DDC400260408 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		0A8CECB92891DDC400260408 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		0A8CECBC2891DDC400260408 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0A8CECBE2891DDC600260408 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0A8CECC12891DDC600260408 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0A8CECC32891DDC600260408 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0A8CECD528941DDE00260408 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		0AB5FA8C28A42CDC00D66E10 /* RegistrationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationViewController.swift; sourceTree = "<group>"; };
+		0AB5FA8E28A4351B00D66E10 /* RouterController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouterController.swift; sourceTree = "<group>"; };
+		0AB5FA9028A5536E00D66E10 /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
+		0AB5FA9228A7EA2000D66E10 /* AuthorizationRegistrationBaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthorizationRegistrationBaseViewController.swift; sourceTree = "<group>"; };
+		0AB5FA9628A80ADB00D66E10 /* SplashScreenViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SplashScreenViewController.swift; sourceTree = "<group>"; };
+		0ACB050F289FF37C0026B13B /* AuthorizationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthorizationViewController.swift; sourceTree = "<group>"; };
+		19B3345ED0A9425139316900 /* Pods-Kinoagona.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Kinoagona.debug.xcconfig"; path = "Target Support Files/Pods-Kinoagona/Pods-Kinoagona.debug.xcconfig"; sourceTree = "<group>"; };
+		9E3F4DB9E3EFE57B427B6A33 /* Pods_Kinoagona.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Kinoagona.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E5ED71A93E6FCA43FE95BADA /* Pods-Kinoagona.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Kinoagona.release.xcconfig"; path = "Target Support Files/Pods-Kinoagona/Pods-Kinoagona.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +45,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E2965F9E90D64065AB8D0D9F /* Pods_Kinoagona.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +57,8 @@
 			children = (
 				0A8CECB42891DDC400260408 /* Kinoagona */,
 				0A8CECB32891DDC400260408 /* Products */,
+				1E691BF67D19BAEB702F0544 /* Pods */,
+				6A63482A14803F81D4A20167 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +73,69 @@
 		0A8CECB42891DDC400260408 /* Kinoagona */ = {
 			isa = PBXGroup;
 			children = (
+				0A8CECD428941DBB00260408 /* Model */,
+				0A8CECD32891E3E800260408 /* Controller */,
+				0A8CECD22891E3D500260408 /* View */,
+				0A8CECCA2891DE2300260408 /* Resources */,
 				0A8CECB52891DDC400260408 /* AppDelegate.swift */,
 				0A8CECB72891DDC400260408 /* SceneDelegate.swift */,
-				0A8CECB92891DDC400260408 /* ViewController.swift */,
-				0A8CECBB2891DDC400260408 /* Main.storyboard */,
-				0A8CECBE2891DDC600260408 /* Assets.xcassets */,
-				0A8CECC02891DDC600260408 /* LaunchScreen.storyboard */,
 				0A8CECC32891DDC600260408 /* Info.plist */,
 			);
 			path = Kinoagona;
+			sourceTree = "<group>";
+		};
+		0A8CECCA2891DE2300260408 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				0A8CECBE2891DDC600260408 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		0A8CECD22891E3D500260408 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0AB5FA9628A80ADB00D66E10 /* SplashScreenViewController.swift */,
+				0A8CECC02891DDC600260408 /* LaunchScreen.storyboard */,
+				0ACB050F289FF37C0026B13B /* AuthorizationViewController.swift */,
+				0AB5FA8C28A42CDC00D66E10 /* RegistrationViewController.swift */,
+				0AB5FA8E28A4351B00D66E10 /* RouterController.swift */,
+				0AB5FA9028A5536E00D66E10 /* CustomTextField.swift */,
+				0AB5FA9228A7EA2000D66E10 /* AuthorizationRegistrationBaseViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		0A8CECD32891E3E800260408 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		0A8CECD428941DBB00260408 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0A8CECD528941DDE00260408 /* User.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1E691BF67D19BAEB702F0544 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				19B3345ED0A9425139316900 /* Pods-Kinoagona.debug.xcconfig */,
+				E5ED71A93E6FCA43FE95BADA /* Pods-Kinoagona.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		6A63482A14803F81D4A20167 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9E3F4DB9E3EFE57B427B6A33 /* Pods_Kinoagona.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +145,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0A8CECC62891DDC600260408 /* Build configuration list for PBXNativeTarget "Kinoagona" */;
 			buildPhases = (
+				2E2CD443E356D837E55084EE /* [CP] Check Pods Manifest.lock */,
 				0A8CECAE2891DDC400260408 /* Sources */,
 				0A8CECAF2891DDC400260408 /* Frameworks */,
 				0A8CECB02891DDC400260408 /* Resources */,
+				D369B9EAFCD3758615E3E1E2 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -127,34 +200,73 @@
 			files = (
 				0A8CECC22891DDC600260408 /* LaunchScreen.storyboard in Resources */,
 				0A8CECBF2891DDC600260408 /* Assets.xcassets in Resources */,
-				0A8CECBD2891DDC400260408 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2E2CD443E356D837E55084EE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Kinoagona-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D369B9EAFCD3758615E3E1E2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Kinoagona/Pods-Kinoagona-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Kinoagona/Pods-Kinoagona-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Kinoagona/Pods-Kinoagona-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		0A8CECAE2891DDC400260408 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0A8CECBA2891DDC400260408 /* ViewController.swift in Sources */,
+				0A8CECD628941DDF00260408 /* User.swift in Sources */,
+				0ACB0510289FF37C0026B13B /* AuthorizationViewController.swift in Sources */,
+				0AB5FA9328A7EA2000D66E10 /* AuthorizationRegistrationBaseViewController.swift in Sources */,
+				0AB5FA8D28A42CDC00D66E10 /* RegistrationViewController.swift in Sources */,
+				0AB5FA8F28A4351B00D66E10 /* RouterController.swift in Sources */,
 				0A8CECB62891DDC400260408 /* AppDelegate.swift in Sources */,
 				0A8CECB82891DDC400260408 /* SceneDelegate.swift in Sources */,
+				0AB5FA9728A80ADB00D66E10 /* SplashScreenViewController.swift in Sources */,
+				0AB5FA9128A5536E00D66E10 /* CustomTextField.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		0A8CECBB2891DDC400260408 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				0A8CECBC2891DDC400260408 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		0A8CECC02891DDC600260408 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -282,6 +394,7 @@
 		};
 		0A8CECC72891DDC600260408 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 19B3345ED0A9425139316900 /* Pods-Kinoagona.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -292,7 +405,7 @@
 				INFOPLIST_FILE = Kinoagona/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -304,12 +417,13 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		0A8CECC82891DDC600260408 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E5ED71A93E6FCA43FE95BADA /* Pods-Kinoagona.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -320,7 +434,7 @@
 				INFOPLIST_FILE = Kinoagona/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -332,7 +446,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
